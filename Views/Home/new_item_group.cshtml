@@ -1,0 +1,249 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<!-- START PAGE CONTENT -->
+<div class="content-wrapper">
+<div class="page-heading">
+    <div class="new_item_group col-sm-12">
+        <h3>New Item Group</h3>
+    </div>
+</div>
+
+<div class="page-content fade-in-up">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="ibox">
+
+                <div class="ibox-body">
+
+                    <div class="form-group">
+                        <div>
+                            <label class="col-sm-3 col-form-label">Type</label>
+                            <label class="ui-radio ui-radio-inline">
+                                <input type="radio" name="test">
+                                <span class="input-span"></span>Goods
+                            </label>
+                            <label class="ui-radio ui-radio-inline">
+                                <input type="radio" name="test">
+                                <span class="input-span"></span>Service
+                            </label>
+
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="ibox-body">
+                        <form class="form-horizontal">
+
+                            <div class="form-group row">
+                                <label class="col-sm-3 col-form-label"> <span style="color: red">Item Group Name*</span></label>
+                                <div class="col-sm-9">
+                                    <input class="form-control" id="ex-phone" type="text">
+
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-sm-3 col-form-label">Description</label>
+                                <div class="col-sm-9">
+                                    <textarea class="form-control" id="ex-date" type="text"></textarea><br>
+                                    <label class="ui-checkbox ui-checkbox-primary">
+                                        <input type="checkbox">
+                                        <span class="input-span"></span>Returnable Item
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+
+                                <label class="col-sm-3 col-form-label"><span style="color: red">Unit*</span></label>
+                                <div class="col-sm-4">
+                                    <select class="form-control select2_demo_2" required>
+                                        <option value="" disabled selected hidden>Select or Type to add</option>
+                                        <option value="a">cm</option>
+                                        <option value="b">ft</option>
+                                        <option value="c">g</option>
+                                        <option value="d">in</option>
+                                        <option value="e">kg</option>
+                                        <option value="f">km</option>
+                                        <option value="g">mg</option>
+
+                                    </select>
+                                </div>
+                                <label class="col-sm-1 col-form-label">
+                                    Tax
+                                </label>
+                                <div class="col-sm-3">
+                                    <select class="form-control select2_demo_2" required>
+                                        <option value="" disabled selected hidden>Select a Tax</option>
+                                        <option value="a"></option>
+
+
+                                    </select>
+                                </div>
+
+                            </div>
+
+                            <div class="form-group row">
+
+                                <label class="col-sm-3 col-form-label">Manufacturer</label>
+                                <div class="col-sm-4">
+                                    <select class="form-control select2_demo_2" required>
+                                        <option value="" disabled selected hidden>Select or Add Manufacturer</option>
+                                        <option value="a"></option>
+
+
+                                    </select>
+                                </div>
+                                <label class="col-sm-1 col-form-label">
+                                    Brand
+                                </label>
+                                <div class="col-sm-3">
+                                    <select class="form-control select2_demo_2" required>
+                                        <option value="" disabled selected hidden>Select a Tax</option>
+                                        <option value="a"></option>
+
+                                    </select>
+                                </div>
+
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-sm-3 col-form-label"><span style="color: red">Multiple Items?*</span></label>
+                                <div class="col-sm-9">
+                                    <label class="ui-checkbox ui-checkbox-primary">
+                                        <input type="checkbox">
+                                        <span class="input-span"></span>Create Attributes and Options
+
+                                    </label>
+
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-sm-3 col-form-label"></label>
+                                <div class="col-sm-3">
+                                    <label><span style="color: red">Attribute*</span></label>
+                                    <select class="form-control select2_demo_2" required>
+                                        <option value="" disabled selected hidden>eg: color</option>
+                                        <option value="a"></option>
+
+                                    </select>
+                                </div>
+                                <div class="col-sm-5">
+                                    <label><span style="color: red">Options*</span></label>
+                                    <input type="text" class="form-control">
+                                </div>
+
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-md-4">
+            <div class="ibox">
+
+                <div class="ibox-body">
+
+                    <div class="form-group">
+                        <!-- UPLOAD IMAGE SECTION -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="new_item_group col-sm-12">
+    <div class="ibox-body">
+        <div class="form-group">
+
+            <label class="col-sm-2.5 col-form-label">Select your Item Type:</label>
+            <label class="ui-radio ui-radio-inline">
+                <input type="radio" name="test">
+                <span class="input-span"></span>Inventory
+            </label>
+            <label class="ui-radio ui-radio-inline">
+                <input type="radio" name="test">
+                <span class="input-span"></span>Non-Inventory
+            </label>
+
+        </div>
+    </div>
+
+
+</div>
+<div class="form-group">
+    <div class="table-wrapper">
+        <table class="table table-bordered " width="100%">
+            <thead>
+                <tr style="font-weight: bold;">
+                    <td>ITEM NAME*</td>
+                    <td>SKU</td>
+                    <td>Cost Price(NPR)*<br>PER UNIT <br><a href="#">COPY TO ALL</a></td>
+                    <td>Selling Price(NPR)* <br>PER UNIT <br><a href="#">COPY TO ALL</a></td>
+                    <td>UPC</td>
+                    <td>EAN</td>
+                    <td>ISBN</td>
+                    <td>REORDER POINT <br>COPY TO ALL</td>
+                </tr>
+            </thead>
+
+
+        </table>
+        <p align="center">Please enter attributes</p>
+
+
+
+        <div class="form-group row">
+            <label class="col-sm-3 col-form-label">
+                Sales Account
+                <select class="form-control select2_demo_2" required>
+                    <option value="" disabled selected hidden>eg: color</option>
+                    <option value="a"></option>
+
+                </select>
+            </label>
+            <div class="col-sm-3">
+                <label><span style="color: red">Purchase Account</span></label>
+                <select class="form-control select2_demo_2" required>
+                    <option value="" disabled selected hidden>eg: color</option>
+                    <option value="a"></option>
+
+                </select>
+            </div>
+            <div class="col-sm-3">
+                <label><span style="color: red">Inventory Account</span></label>
+                <select class="form-control select2_demo_2" required>
+                    <option value="" disabled selected hidden>eg: color</option>
+                    <option value="a"></option>
+
+                </select>
+            </div>
+
+        </div>
+
+
+
+    </div>
+</div>
+
+<footer class="page-footer">
+    <div class="footer-block"></div>
+    <button class="footer-btn save">Save</button>
+    <button class="footer-btn cancel">Cancel</button>
+
+    <div class="to-top"><i class="fa fa-angle-double-up"></i></div>
+</footer>
+ </div>
